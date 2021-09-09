@@ -1,4 +1,4 @@
-package onliner.pages;
+package by.onliner.pages;
 
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
