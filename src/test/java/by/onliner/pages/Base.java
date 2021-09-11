@@ -13,6 +13,7 @@ public class Base {
         System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
+
     }
     @AfterClass
     public static void closeBrowser() {

@@ -5,4 +5,7 @@
     Scenario: Hovering
       Given onlinerBy
       When i open onliner and hover on Autobaraholka link
-      Then subcategories shown
+      Then subcategories added to the list
+      And in the end we compare subs with the list
+      |
+
